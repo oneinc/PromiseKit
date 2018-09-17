@@ -634,7 +634,7 @@
 					};
 					63B0AC561D595E1B00FA21D9 = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					C0244E4E2047A6CB00ACB4AC = {
@@ -1074,6 +1074,8 @@
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_PACKAGE_TYPE = FMWK;
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 			};
 			name = Debug;
@@ -1128,6 +1130,8 @@
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_PACKAGE_TYPE = FMWK;
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 			};
 			name = Release;
